@@ -79,11 +79,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Meridian Trust — Fictional Banking Simulation" },
+      {
+        name: "description",
+        content:
+          "A fictional roleplay banking platform with a staff operations console and a customer portal sharing one invented record set.",
+      },
+      { name: "author", content: "Meridian Trust Simulation" },
+      { property: "og:title", content: "Meridian Trust — Fictional Banking Simulation" },
+      {
+        property: "og:description",
+        content: "Roleplay bank operations console and customer portal on shared fictional records.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
